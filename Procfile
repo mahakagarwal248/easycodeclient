@@ -1,1 +1,1 @@
-web: server/index.js
+web: server/package.json
