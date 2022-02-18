@@ -1,1 +1,1 @@
-web: https://easycodingforwebserver.herokuapp.com
+web: server/index.js
