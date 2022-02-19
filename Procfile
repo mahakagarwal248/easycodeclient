@@ -1,1 +1,1 @@
-web: sh -c 'npm start && node server/index.js'
+worker: node server/index.js
