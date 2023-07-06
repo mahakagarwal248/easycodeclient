@@ -83,7 +83,7 @@ function Homepage() {
         </div>
         <div>
           <img
-            src="https://www.centrify.com/sites/default/files/2021-04/mongodb-logo-200.png"
+            src="https://www.strongdm.com/hubfs/21126185/Technology%20Images/603c5eb831820c3ce6a8f057_603a1586fa052d17fc2a6929_MongoDBAtlas.png"
             alt="MongoDB"
           />
         </div>
