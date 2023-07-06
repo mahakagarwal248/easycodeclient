@@ -65,7 +65,7 @@ const ContactForm = () => {
         SendData.append("msg", msg);
         if (!isNaN(parseInt(myfdata.number))) {
           setloading(true);
-          const responce = await fetch("/contactus/mail", {
+          const responce = await fetch("https://crowded-gray-school-uniform.cyclic.app/contactus/mail", {
             method: "POST",
             body: SendData,
           });
