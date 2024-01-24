@@ -1,0 +1,479 @@
+.architecture-contact-details {
+  opacity: 0.8;
+  background-color: rgb(8, 8, 8);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.architecture-contact-details > span {
+  margin: 0 20px;
+  font-size: 13px;
+  color: darkgrey;
+}
+.architecture-contact-details > p {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 13px;
+}
+.architecture-contact-details-icons {
+  color: tomato;
+}
+.architecture-section-name > hr {
+  width: 70px;
+  height: 3px;
+  background-color: tomato;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2%;
+}
+
+/* banner-section */
+.architecture-banner {
+  background: url("https://imageio.forbes.com/specials-images/imageserve/61cdd9ec2bbdedb659077751/Neutral-living-color-corrected/960x0.jpg?fit=bounds&format=jpg&width=960");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.architecture-banner-div {
+  opacity: 0.8;
+  background-color: rgb(8, 8, 8);
+}
+.architecture-banner-info {
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+.architecture-banner-info-div {
+  color: white;
+  padding-right: 10px;
+}
+.architecture-banner-info-div > button {
+  border: 2px solid tomato;
+  opacity: 0.8;
+  background-color: rgb(8, 8, 8);
+  color: white;
+  padding: 10px 30px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.architecture-banner-info-div > button:hover {
+  cursor: pointer;
+  background-color: tomato;
+}
+.architecture-banner-data,
+.architecture-banner-info-img {
+  flex: 0.5;
+  justify-content: center;
+}
+.architecture-banner-data {
+  display: flex;
+  align-items: center;
+}
+.architecture-banner-info-img > img {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 25%;
+}
+.architecture-banner-cards {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  margin-top: 30px;
+  width: 80%;
+}
+.architecture-banner-cards > div {
+  margin: 25px;
+}
+.architecture-banner-cards > div > p {
+  font-size: 12px;
+  color: darkgray;
+  margin-top: 15px;
+}
+.architecture-banner-cards > div > h2 {
+  font-weight: bolder;
+  font-size: 38px;
+  -webkit-text-stroke: 1.5px tomato;
+  -webkit-text-fill-color: black;
+}
+.architecture-banner-cards > div > h6 {
+  font-weight: 700;
+}
+
+/* portfolio-section */
+.architecture-portfolio {
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+}
+.architecture-portfolio-info {
+  display: flex;
+}
+.architecture-portfolio-info > h2 {
+  flex: 0.5;
+  padding-right: 10px;
+  margin-right: 20px;
+  width: 100%;
+}
+.architecture-portfolio-info > p {
+  flex: 0.5;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(80, 74, 74);
+  margin-top: 10px;
+}
+.architecture-portfolio-carousel {
+  width: 100%;
+  margin-top: 15px;
+}
+.architecture-carousel-img {
+  width: 100%;
+}
+
+/* features-section */
+.architecture-features {
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.architecture-features-info > button {
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 15px;
+  border: 2px solid tomato;
+  color: white;
+  background-color: black;
+  padding: 10px 25px;
+  font-size: 16px;
+  align-self: baseline;
+  font-weight: 500;
+}
+.architecture-features-info > button:hover {
+  cursor: pointer;
+  background-color: tomato;
+}
+.architecture-features-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.architecture-features-cards > div {
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 15px;
+  width: 240px;
+}
+.architecture-features-cards > div > img {
+  margin-bottom: 15px;
+  height: 200px;
+  width: 200px;
+}
+.architecture-features-cards > div > p {
+  font-size: 16px;
+  color: lightgray;
+}
+.architecture-features-cards > div:hover {
+  background-color: tomato;
+}
+
+/* contact-section*/
+.architecture-contact {
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+}
+.architecture-contact-info {
+  display: flex !important;
+}
+.architecture-contact-info > h2 {
+  flex: 0.6;
+  padding-right: 10px;
+  margin-right: 20px;
+  width: 100%;
+}
+.architecture-contact-info > p {
+  flex: 0.4;
+  padding-right: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(80, 74, 74);
+  margin-top: 10px;
+}
+.architecture-contact-content {
+  display: flex;
+  margin-top: 20px;
+}
+.architecture-contact-content > div {
+  flex: 0.6;
+}
+.architecture-contact-content > div > img {
+  height: 100%;
+  width: 100%;
+}
+.architecture-contact-form {
+  flex: 0.4;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.architecture-contact-form > input {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(238, 238, 238);
+  color: darkgray;
+  font-size: 12px;
+  border: none;
+}
+.architecture-contact-form > button {
+  border: 2px solid transparent;
+  font-weight: 700;
+  background-color: tomato;
+  padding: 4px 20px;
+  width: 120px;
+  cursor: pointer;
+  color: white;
+}
+.architecture-contact-form > button:hover {
+  border: 2px solid tomato;
+  background-color: white;
+  color: black;
+}
+
+/* testimonials-section */
+.architecture-testimonials {
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.architecture-testimonials-info {
+  margin-bottom: 30px !important;
+  width: 50%;
+}
+.architecture-features > div,
+.architecture-testimonials > div {
+  width: 70%;
+  margin: auto;
+}
+
+.carouselcaption {
+  width: 350px;
+  text-align: left;
+  margin: auto;
+  padding: 20px 10px;
+  background-color: tomato;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+@media (min-width: 720px) and (max-width: 925px) {
+  .architecture-banner-info {
+    padding-top: 25px;
+  }
+  .architecture-portfolio,
+  .architecture-features > div,
+  .architecture-contact,
+  .architecture-testimonials > div {
+    width: 85%;
+  }
+  .architecture-features-cards {
+    flex-wrap: wrap;
+  }
+  .architecture-features-cards > div {
+    flex: 1 1 40%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .architecture-features-cards > div > p {
+    width: 200px;
+    margin: auto;
+  }
+}
+@media (min-width: 475px) and (max-width: 720px) {
+  .architecture-contact-details > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -5px auto;
+  }
+  .architecture-contact-details > span {
+    margin: -5px auto;
+  }
+  .architecture-banner-div {
+    padding-top: 15px;
+  }
+  .architecture-banner-info {
+    padding-top: 15px;
+  }
+  .architecture-banner-info-img {
+    display: none;
+  }
+  .architecture-banner-data {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .architecture-banner-cards {
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  .architecture-banner-cards > div {
+    flex: 1 1 50%;
+    margin: auto;
+    padding-right: 10px;
+  }
+  .architecture-portfolio,
+  .architecture-features > div,
+  .architecture-contact,
+  .architecture-testimonials > div {
+    width: 85%;
+  }
+  .architecture-features-cards {
+    flex-wrap: wrap;
+  }
+  .architecture-features-cards > div {
+    flex: 1 1 50%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .architecture-features-cards > div > p {
+    width: 200px;
+    margin: auto;
+  }
+}
+@media (max-width: 475px) {
+  .architecture-main-div {
+    width: 100%;
+  }
+  .architecture-contact-details {
+    flex-direction: column;
+    text-align: center;
+  }
+  .architecture-contact-details-icons {
+    font-size: 20px !important;
+  }
+  .architecture-contact-details > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -5px auto;
+  }
+  .architecture-contact-details > span {
+    margin: -5px auto;
+  }
+  .architecture-banner-div {
+    padding-top: 15px;
+  }
+  .architecture-banner-data {
+    flex: 1;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .architecture-banner-info-img {
+    display: none;
+  }
+  .architecture-banner-info-div {
+    transform: none;
+    margin: auto;
+    width: 90%;
+  }
+  .architecture-banner-cards {
+    margin-bottom: 0;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 10px;
+  }
+  .architecture-banner-cards > div {
+    margin: 2px 0px;
+  }
+  .architecture-portfolio,
+  .architecture-contact {
+    width: 95% !important;
+    margin: auto;
+    padding: 25px 0;
+  }
+  .architecture-portfolio-info > h2 > br {
+    display: none !important;
+  }
+  .architecture-portfolio-info {
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .architecture-portfolio-info > h2 {
+    padding-right: 0;
+  }
+  .architecture-portfolio-info > p {
+    font-weight: 500;
+    padding-left: 0;
+  }
+  .architecture-portfolio-carousel {
+    margin: 20px auto;
+  }
+  .architecture-features {
+    width: 100%;
+    padding: 25px 0;
+  }
+  .architecture-features > div {
+    width: 95%;
+    margin: auto;
+  }
+  .architecture-features-cards {
+    flex-direction: column;
+  }
+
+  .architecture-contact {
+    padding: 20px auto !important;
+  }
+  .architecture-contact-info {
+    flex-direction: column;
+  }
+  .architecture-contact-info > p {
+    font-weight: 500;
+  }
+  .architecture-contact-content > div {
+    display: none;
+  }
+  .architecture-contact-form {
+    width: 100%;
+    flex: 1;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .architecture-contact-form > input {
+    background-color: rgb(212, 211, 211);
+    padding: 15px;
+  }
+  .architecture-testimonials {
+    padding: 25px 0;
+  }
+  .architecture-testimonials-info {
+    margin-left: 0;
+    width: 100%;
+  }
+  .architecture-testimonials > div {
+    width: 95%;
+    margin: auto;
+  }
+  .carousel {
+    width: 95%;
+    margin: auto;
+  }
+  .architecture-carousel-img {
+    width: 100%;
+  }
+  .carouselcaption {
+    display: none;
+  }
+}

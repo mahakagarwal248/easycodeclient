@@ -1,0 +1,65 @@
+.architecture-footer {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+}
+.architecture-footer-icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.architecture-footer > div {
+  width: 25%;
+}
+.architecture-footer > div > p {
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.architecture-footer-logo > span {
+  font-weight: 700;
+  font-size: 24px;
+}
+.architecture-footer-logo > span:hover {
+  cursor: pointer;
+}
+.architecture-footer-logo > div {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.architecture-footer-logo > p {
+  font-size: 12px;
+  color: rgb(68, 68, 68);
+}
+
+.architecture-footer-btn {
+  border: 2px solid tomato;
+  background-color: white;
+  padding: 1px 15px;
+  margin-top: 5px;
+}
+.architecture-footer-btn:hover {
+  cursor: pointer;
+  background-color: tomato;
+  color: white;
+}
+@media (min-width: 475px) and (max-width: 925px){
+  .architecture-footer{
+    width: 85%;
+  }
+}
+@media (max-width: 475px) {
+  .architecture-footer {
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+    padding: 25px 0px;
+  }
+  .architecture-footer > div {
+    width: 100%;
+  }
+  .architecture-footer-btn {
+    margin-left: 5px;
+  }
+}

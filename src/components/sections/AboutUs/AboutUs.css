@@ -1,0 +1,80 @@
+.s3 {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.s3d1,
+.s3d2 {
+  flex: 0.5;
+}
+.s3d1 > img {
+  width: 500px;
+  height: 500px;
+}
+.s3d2 {
+  text-align: left;
+  padding: 30px;
+  margin-left: 60px;
+  margin-right: 30px;
+}
+.s3d2 > h4 {
+  background-color: #ffe6f2;
+  color: #ff1a8c;
+  font-size: 22px;
+  font-weight: bold;
+  width: 130px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 8px;
+}
+.s3d2 > h2 {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.about-btn {
+  border: 2px solid #092986;
+  border-radius: 25px;
+  margin-top: 30px;
+  padding: 10px 25px;
+  background-color: #3089ac;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.about-btn:hover {
+  background-color: white;
+  color: #3089ac;
+}
+
+@media (min-width: 476px) and (max-width: 1020px) {
+  .s3 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .s3d1 > img {
+    width: 450px;
+    height: 450px;
+  }
+  .s3d1,
+  .s3d2 {
+    flex: 1;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .s3 {
+    flex-direction: column;
+    width: 95%;
+  }
+  .s3d1 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .s3d2 {
+    padding: 10px;
+    margin: 5px;
+  }
+}

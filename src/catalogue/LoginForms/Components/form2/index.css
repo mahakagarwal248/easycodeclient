@@ -1,0 +1,96 @@
+.login-form-2 {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  background: #f8e6e4;
+}
+.login-form-2 > div {
+  flex: 0.5;
+}
+.login-form-2 > div > h1 {
+  flex: 0.5;
+  margin: auto;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form-2-div {
+  text-align: center;
+}
+.ant-tabs {
+  background-color: rgb(14, 27, 51);
+  width: min-content;
+  height: 350px;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ant-tabs-nav-list {
+  justify-content: center;
+}
+.ant-tabs-tab {
+  padding: 5px 15px;
+  margin: 5px 0px;
+  font-size: larger;
+  display: inline-block;
+  border: 2px solid transparent;
+  font-weight: 600;
+}
+.ant-tabs-tab:hover {
+  background-color: white;
+  color: rgb(20, 47, 202);
+  border: 2px solid rgb(20, 47, 202);
+}
+.ant-tabs-tab-active {
+  background-color: rgb(20, 47, 202);
+  color: white;
+  border-radius: 5px;
+}
+.form-2-form {
+  width: 300px;
+  margin: auto;
+}
+.form-2-form > input {
+  padding: 3px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.form-2-form > button {
+  font-size: 18px;
+  padding: 5px 15px;
+  color: white;
+  background-color: rgb(20, 47, 202);
+  border-radius: 10px;
+  border: none;
+  margin-top: 25px;
+}
+.form-2-form > button:hover {
+  background-color: white;
+  color: rgb(20, 47, 202);
+  border: 2px solid rgb(20, 47, 202);
+  font-weight: 600;
+}
+
+@media (max-width: 740px) {
+  .login-form-2 {
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .login-form-2 > div > h1{
+    font-size: 52px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .login-form-2 > div {
+    flex: 1;
+  }
+}

@@ -1,0 +1,58 @@
+.architecture-navbar {
+  top: 50px;
+  z-index: 4;
+  padding-top: 0px;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+}
+.architecture-logo {
+  font-weight: bolder;
+  font-size: larger;
+  flex: 0.4;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+.architecture-nav-items {
+  display: flex;
+  flex: 0.6;
+  height: 100%;
+}
+.architecture-nav-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 0px 15px;
+  cursor: pointer;
+  height: 100%;
+}
+.architecture-nav-item:hover {
+  background-color: #e65c00;
+  color: white;
+  text-decoration: underline;
+  z-index: 5;
+}
+@media (min-width: 475px) and (max-width: 720px) {
+  .architecture-navbar {
+    width: 100%;
+    height: 55px;
+    top: 50px;
+  }
+  .architecture-nav-items {
+    display: none;
+  }
+}
+@media (max-width: 475px) {
+  .architecture-navbar {
+    width: 100%;
+    height: 55px;
+    top: 70px;
+  }
+  .architecture-nav-items {
+    display: none;
+  }
+}

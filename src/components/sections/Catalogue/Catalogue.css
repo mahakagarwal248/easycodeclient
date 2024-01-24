@@ -1,0 +1,120 @@
+.s4 {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.s4d {
+  text-align: left;
+}
+.s4d > h4 {
+  background-color: #e6ffe6;
+  color: #006600;
+  font-size: 22px;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 8px;
+}
+.s4d > h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50%;
+}
+.s4-cards-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.s4-card {
+  flex: 1 1 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.s4-cards {
+  height: 380px !important;
+  width: 350px !important;
+  text-align: left;
+  margin-top: 50px;
+  padding: 30px 40px;
+  padding-bottom: 10px;
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 5px #999;
+  border-radius: 10px;
+}
+.s4-cards:hover {
+  cursor: pointer;
+  -moz-box-shadow: 0 0 25px #999;
+  -webkit-box-shadow: 0 0 52px #999;
+  box-shadow: 0 0 25px #999;
+}
+.s4-card-img {
+  height: 200px;
+  width: 250px;
+  margin-bottom: 15px;
+  border: 1px solid #2d2d86;
+}
+.s4-card-heading {
+  color: #666699;
+  font-size: 22px;
+}
+.s4-card-p {
+  color: #2d2d86;
+  font-weight: bold;
+  font-size: 24px;
+}
+.catalogue-btn {
+  float: left;
+  margin-top: 20px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3939ac;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  padding: 3px 12px;
+  cursor: pointer;
+}
+.catalogue-btn:hover {
+  border: 2px solid #2d2d86;
+  border-radius: 25px;
+  padding: 3px 12px;
+}
+.arrow {
+  vertical-align: middle;
+}
+@media (min-width: 476px) and (max-width: 1020px) {
+  .s4-card {
+    width: 95%;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .s4 {
+    width: 90%;
+    margin: auto;
+  }
+  .s4d {
+    flex-direction: column;
+    width: 95%;
+  }
+  .s4d > h2 {
+    width: 100%;
+  }
+  .s4-cards {
+    margin-top: 30px;
+  }
+  .s4-card {
+    width: 100%;
+  }
+  .s4-card-img {
+    width: 100%;
+  }
+  .s4-cards {
+    padding: 20px 10px;
+  }
+}

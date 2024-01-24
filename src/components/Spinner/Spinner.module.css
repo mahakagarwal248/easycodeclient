@@ -1,17 +1,18 @@
+.CompSpinner {
+  text-align: center;
+}
 .mainclass {
-  margin: 0 25%;
   width: 50%;
+  margin: auto;
   padding: auto;
   text-align: center;
+  justify-content: center;
   display: flex;
 }
 .spinnerclass {
-  float: left;
   margin: auto;
 }
 .logoclass {
-  float: left;
-  margin: 20px;
   font-size: 130px;
   color: #408ba8;
   font-family: "Lobster", cursive;
@@ -24,7 +25,18 @@
   font-family: "Lobster", cursive;
   text-align: center;
 }
-@media (max-width: 420px) {
+.spinnerclass{
+  margin-right: 40px !important;
+}
+@media (min-width: 475px) and (max-width: 767px) {
+  .logoclass {
+    font-size: 80px;
+  }
+  .spinnerclass{
+    margin-right: 10px !important;
+  }
+}
+@media (max-width: 475px) {
   .CompSpinner {
     size: 100;
   }
@@ -32,8 +44,17 @@
     margin: auto;
     width: 100%;
   }
-  .logoclass,
   .CompHash {
-    font-size: 50px;
+    font-size: 40px;
+    margin-right: 10px !important;
+    margin-left: 0;
+  }
+  .logoclass {
+    font-size: 40px;
+    margin-left: 0;
+  }
+  .spinnerclass{
+    margin-left: 0;
+    margin-right: 10px !important;
   }
 }

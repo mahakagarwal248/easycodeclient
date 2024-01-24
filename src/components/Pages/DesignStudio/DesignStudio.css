@@ -1,0 +1,14 @@
+.design-studio-div {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  margin-top: 85px;
+  padding: 20px 0;
+}
+.design-studio-div > h1 {
+  font-size: 52px;
+  color: #408ba8;
+  font-family: "Lobster", cursive;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}

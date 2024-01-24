@@ -1,0 +1,110 @@
+.login-form-4 {
+  display: flex;
+  background-color: #f8e6e4;
+  padding: 20px 0;
+  align-items: center;
+}
+.login-form-4 > div {
+  flex: 0.5;
+  margin: auto;
+  text-align: center;
+}
+.login-form-4 > div > h1 {
+  font-size: 64px;
+  font-weight: bold;
+  font-style: italic;
+}
+.form-4-div {
+  padding: 2px;
+  border: 6px solid black;
+  width: max-content;
+  margin: auto;
+  border-radius: 18px;
+}
+.form-4-div > h2 {
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-4-form {
+  width: 360px;
+  margin: auto;
+  border: 2px solid black;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 2px 2px black;
+  outline: #ff99cc solid 4px;
+}
+.form-4-fb-btn,
+.form-4-google-btn {
+  padding: 8px 0;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-4-fb-btn {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+}
+.form-4-form > p {
+  text-align: center;
+  color: rgb(116, 114, 114);
+}
+.form-4-form > input {
+  margin: auto;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgb(73, 72, 72);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.form-4-form > input::-webkit-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: 600;
+  overflow: visible;
+  vertical-align: middle;
+  display: inline-block !important;
+  font-size: 16px;
+}
+.form-4-btn {
+  background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+  margin: 15px auto;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  width: 120px;
+  border: 2px solid black;
+}
+
+@media (max-width: 740px) {
+  .login-form-4 {
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .login-form-4 > div > h1 {
+    font-size: 52px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .login-form-4 > div {
+    flex: 1;
+    width: 100%;
+  }
+}
+@media (max-width: 475px) {
+  .form-4-div {
+    width: 90%;
+  }
+  .form-4-form {
+    width: 100%;
+  }
+}
