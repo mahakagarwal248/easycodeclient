@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 import "./GetInTouch.css";
 
 function GetInTouch() {
+  const navigate = useNavigate();
   return (
     <div className="s5">
       <div className="s5d">
@@ -12,11 +13,12 @@ function GetInTouch() {
           your next website?
         </h1>
         <div className="s5d1">
-          <button className="btn">
-            <Link to="/contactus" className="s5link">
-              <MailOutlineIcon className="mail" />
-              Get in touch now!
-            </Link>
+          <button
+            className="get-in-touch-btn"
+            onClick={() => navigate("/contactus")}
+          >
+            <MailOutlineIcon className="get-in-touch-mail" />
+            Get in touch now!
           </button>
           <p>
             Or, take a peek in our{" "}

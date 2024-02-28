@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  background-color: white;
+  z-index: 10;
+  box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.3);
+}
+nav > h2 {
+  text-align: left;
+  margin: 18px 25px;
+}
+nav > h2 > a {
+  color: #3089ac;
+  font-weight: 900;
+  font-size: 38px;
+  font-family: "Domine", serif;
+}
+nav > h2 > a:hover {
+  text-decoration: none;
+}
+nav > div {
+  display: inline-block;
+  width: 100%;
+}
+.items-list {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.items {
+  margin-right: 25px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  padding: 8px 13px;
+  color: #000;
+  text-decoration: none;
+  background: none;
+}
+.items:focus {
+  border: 2px solid #035473;
+  padding: 8px 13px;
+  border-radius: 25px;
+}
+.items-list > hr {
+  display: none;
+}
+.contact-us-btn {
+  background: transparent;
+  border: 2px solid #035473;
+  padding: 8px 18px;
+  background-color: #4697b8;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  animation: 2s anim-popoutin ease 3;
+  margin-left: auto;
+  margin-right: 40px;
+  cursor: pointer;
+}
+@keyframes anim-popoutin {
+  0% {
+    color: black;
+    transform: scale(0);
+    opacity: 0;
+  }
+  25% {
+    color: red;
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    color: black;
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    /* animate nothing to add pause at the end of animation */
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.navbtn {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  padding: 5px 7px;
+  color: #000;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #035473;
+  cursor: pointer;
+}
+
+@media (min-width: 946px) and (max-width: 1020px) {
+  .items{
+    margin-right: 12px;
+    padding: 5px 10px;
+  }
+  .items:hover{
+    padding: 5px 10px;
+  }
+}
+@media (max-width: 945px) {
+  nav {
+    display: block;
+    z-index: 10;
+    width: 100%;
+    /* height: 55px; */
+  }
+  .items-list {
+    width: 40%;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  .items-list {
+    border-radius: 10px;
+    flex-direction: column;
+    height: auto;
+    background: #408ba8;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .items:nth-child(1) {
+    border-top: 2px solid rgba(255, 255, 255, 0.555);
+    margin-top: 50px;
+    border-radius: 0;
+  }
+  .items {
+    width: 90%;
+    border-top: 2px solid rgba(255, 255, 255, 0.555);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.555);
+    text-align: center;
+    padding: 15px 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
+  .items:hover {
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 15px 0;
+  }
+  .items-list > hr {
+    margin-top: 0px;
+    display: block;
+    width: auto;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.555);
+  }
+  .navbtn {
+    display: block;
+    top: 20px;
+  }
+  .contact-us-btn {
+    background-color: transparent;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    animation: none;
+    margin: auto !important;
+  }
+}
+@media (max-width: 580px) {
+  .items-list{
+    width: 90% !important;
+  }
+}

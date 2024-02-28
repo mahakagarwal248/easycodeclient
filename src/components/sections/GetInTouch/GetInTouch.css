@@ -27,7 +27,7 @@
   margin-left: 80px;
   color: #000080;
 }
-.s5d1 > .btn {
+.get-in-touch-btn {
   border: 2px solid #092986;
   border-radius: 25px;
   padding: 10px 25px;
@@ -36,15 +36,12 @@
   font-size: 15px;
   text-align: center;
   font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
 }
-.s5d1 > .btn:hover {
+.get-in-touch-btn:hover {
   background-color: white;
-}
-.s5d1 > .btn > .s5link {
-  color: white;
-  text-decoration: none;
-}
-.s5d1 > .btn > .s5link:hover {
   color: #3089ac;
 }
 .s5d1 > p {
@@ -53,8 +50,7 @@
   font-weight: bold;
   margin-top: 5px;
 }
-.mail {
-  vertical-align: middle;
+.get-in-touch-mail {
   transform: scale(0.8);
   margin-right: 2px;
 }
@@ -84,9 +80,10 @@
     text-align: center;
     margin: 10px 0;
   }
-  .s5d1 > .btn {
-    margin-top: 20px;
+  .get-in-touch-btn {
     font-size: 12px;
+    margin: auto;
+    margin-top: 20px;
   }
 }
 

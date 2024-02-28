@@ -1,8 +1,8 @@
-import { useNavigate } from "react-router-dom";
-import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import { useEffect } from "react";
 
-import "./Catalogue.css";
-import Card from "./Card";
+import "./DesignStudio.css";
+import Navbar from "../../components/Navbar/Navbar";
+import Card from "../../components/sections/Catalogue/Card";
 
 const cardData = [
   {
@@ -29,32 +29,36 @@ const cardData = [
     description: "It is an Architect's Website.",
     redirectTo: "/demo/architecture-website",
   },
+  {
+    imageUrl: "/images/stackoverflow.png",
+    heading: "Demo 5",
+    description: "It is the stackoverflow website clone.",
+    redirectTo: "https://a-stackoverflow-clone.netlify.app/",
+  },
+  {
+    imageUrl: "/images/demo2.png",
+    heading: "Demo 6",
+    description: "It has some different kinds of Login Forms.",
+    redirectTo: "/demo/login-forms",
+  },
 ];
-function Catalogue() {
-  const navigate = useNavigate();
-
+function DesignStudio() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div className="s4" id="catalogue">
-      <div className="s4d">
-        <h4>Catalogue</h4>
-        <h2>Your digital presence should be an unstoppable force</h2>
-        <h5>Choose design from our catalogue</h5>
+    <div>
+      <Navbar />
+      <div className="design-studio-div">
+        <h1>Design Studio</h1>
         <div className="s4-cards-div">
           {cardData?.map((data, index) => {
             return <Card key={index} data={data} />;
           })}
         </div>
       </div>
-      <button
-        className="catalogue-btn"
-        onClick={() => {
-          navigate("/design-studio");
-        }}
-      >
-        See More <ArrowRightAltIcon className="arrow" />
-      </button>
     </div>
   );
 }
 
-export default Catalogue;
+export default DesignStudio;

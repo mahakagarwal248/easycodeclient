@@ -1,15 +1,15 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-import Footer from "./components/Footer";
-import Homepage from "./components/Homepage";
-import Navbar from "./components/Navbar";
+import Footer from "./components/Footer/Footer";
+import Homepage from "./Pages/Homepage";
+import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ContactForm from "./components/Pages/ContactForm/ContactForm";
+import ContactForm from "./Pages/ContactForm/ContactForm";
 import WorkingState from "./contexts/workngalert/workingstate";
 import Spinner from "./components/Spinner/Spinner";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import DesignStudio from "./components/Pages/DesignStudio/DesignStudio";
+import DesignStudio from "./Pages/DesignStudio/DesignStudio";
 import ArchitectureWebsite from "./catalogue/ArchitectureWebsite.js/ArchitectureWebsite";
 import LoginForms from "./catalogue/LoginForms/LoginForms";
 
