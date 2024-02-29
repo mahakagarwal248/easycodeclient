@@ -15,7 +15,7 @@ const cardData = [
     imageUrl: "/images/ecomm.png",
     heading: "Demo 2",
     description: "It is an E-Commerce Website.",
-    redirectTo: "http://ecomm.easycoder.tech/",
+    redirectTo: "https://your-shopping-site.netlify.app/",
   },
   {
     imageUrl: "/images/unnati.png",
