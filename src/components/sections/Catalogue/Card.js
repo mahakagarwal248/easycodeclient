@@ -1,9 +1,12 @@
 import React from "react";
 import "./Catalogue.css";
+import { useNavigate } from "react-router-dom";
 
 function Card({ data }) {
+  const navigate = useNavigate();
   const handleRedirect = (path) => {
-    window.open(path, "_blank");
+    // window.open(path, "_blank");
+    navigate(path);
   };
   return (
     <div className="s4-card" onClick={() => handleRedirect(data?.redirectTo)}>
