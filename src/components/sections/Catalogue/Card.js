@@ -6,7 +6,8 @@ function Card({ data }) {
   const navigate = useNavigate();
   const handleRedirect = (path) => {
     // window.open(path, "_blank");
-    navigate(path);
+    path[0] === "/" ? navigate(path) : window.open(path, "_blank");
+    // navigate(path);
   };
   return (
     <div className="s4-card" onClick={() => handleRedirect(data?.redirectTo)}>
