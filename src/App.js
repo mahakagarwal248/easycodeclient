@@ -47,12 +47,12 @@ function App() {
               }
             ></Route>
             <Route exact path="/contactus" element={<ContactForm />} />
-            <Route exact path="/demo">
+            <Route path="/demo">
               <Route
-                path="/demo/architecture-website"
+                path="architecture-website"
                 element={<ArchitectureWebsite />}
               />
-              <Route path="/demo/login-forms" element={<LoginForms />} />
+              <Route path="login-forms" element={<LoginForms />} />
             </Route>
             <Route path="/design-studio" element={<DesignStudio />} />
           </Routes>
