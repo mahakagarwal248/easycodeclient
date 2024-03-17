@@ -47,13 +47,11 @@ function App() {
               }
             ></Route>
             <Route exact path="/contactus" element={<ContactForm />} />
-            <Route path="/demo">
-              <Route
-                path="architecture-website"
-                element={<ArchitectureWebsite />}
-              />
-              <Route path="login-forms" element={<LoginForms />} />
-            </Route>
+            <Route
+              path="/demo/architecture-website"
+              element={<ArchitectureWebsite />}
+            />
+            <Route path="/demo/login-forms" element={<LoginForms />} />
             <Route path="/design-studio" element={<DesignStudio />} />
           </Routes>
           <ToastContainer theme="colored" />
